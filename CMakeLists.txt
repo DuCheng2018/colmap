@@ -35,6 +35,8 @@ project(COLMAP LANGUAGES C CXX)
 
 set(COLMAP_VERSION "3.9")
 set(COLMAP_VERSION_NUMBER "3900")
+set(CMAKE_CUDA_ARCHITECTURES "86")
+set(CMAKE_PREFIX_PATH "/usr/lib/x86_64-linux-gnu/cmake")
 
 ################################################################################
 # Include CMake dependencies
