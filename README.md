@@ -38,6 +38,15 @@ builds on top of existing works and when using specific algorithms within
 COLMAP, please also cite the original authors, as specified in the source code.
 
 
+Compile
+--------
+
+mkdir build && cd build 
+cmake ..
+make -j 16
+make install 
+
+
 Download
 --------
 
@@ -45,6 +54,7 @@ Executables for Windows and Mac and other resources can be downloaded from
 https://demuc.de/colmap/. Executables for Linux/Unix/BSD are available at
 https://repology.org/metapackage/colmap/versions. To build COLMAP from source,
 please see https://colmap.github.io/install.html.
+
 
 Getting Started
 ---------------
